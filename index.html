@@ -248,6 +248,8 @@
                 symbol.style.left = Math.random() * 100 + 'vw';
                 symbol.style.top = Math.random() * 100 + 'vh';
                 symbol.style.animationDuration = Math.random() * 10 + 5 + 's';
+                symbol.style.userSelect = 'none';
+                symbol.style.pointerEvents = 'none';
                 document.body.appendChild(symbol);
             }
         }
@@ -262,6 +264,8 @@
                 glitchText.style.left = Math.random() * 100 + 'vw';
                 glitchText.style.top = Math.random() * 100 + 'vh';
                 glitchText.style.animationDuration = Math.random() * 6 + 4 + 's';
+                glitchText.style.userSelect = 'none';
+                glitchText.style.pointerEvents = 'none';
                 document.body.appendChild(glitchText);
             }
         }
